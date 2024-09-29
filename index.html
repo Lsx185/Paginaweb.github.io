@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Ejemplo</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: white;
+        }
+
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.9); /* Fondo semitransparente */
+            padding: 10px 50px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px; /* Espacio entre los enlaces */
+        }
+
+        .image-container {
+            background-image: url("images/wrike.png");
+            background-size: cover;
+            background-position: center;
+            height: calc(100vh - 60px); /* Ajusta la altura de acuerdo a tu header */
+        margin: 0;
+        }
+
+        .top-menu {
+            font-size: 0.9em;
+        }
+
+        .top-menu a {
+            margin-right: 15px;
+            color: gray;
+            text-decoration: none;
+        }
+
+        .top-menu a:hover {
+            text-decoration: underline;
+        }
+
+        .main-menu {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            font-size: 1.1em;
+            margin-top: 15px;
+        }
+
+        .main-menu a {
+            color: gray;
+            text-decoration: none;
+        }
+
+        .main-menu a:hover {
+            text-decoration: underline;
+        }
+
+        .login-buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .login-buttons a {
+            padding: 10px 20px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .btn-primary {
+            background-color: #66c664;
+        }
+
+        .btn-secondary {
+            background-color: rgb(253, 250, 250);
+        }
+
+        .hero {
+            text-align: center;
+            margin: 50px 0;
+        }
+
+        .hero h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 1.2em;
+            color: rgb(251, 250, 250);
+            margin-bottom: 30px;
+        }
+
+        .email-input {
+            margin: 20px auto;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .email-input input {
+            padding: 15px;
+            width: 300px;
+            border: 1px solid gray;
+            border-radius: 5px;
+        }
+
+        .email-input button {
+            padding: 15px 30px;
+            background-color: #66c664;
+            border: none;
+            color: white;
+            font-size: 1em;
+            border-radius: 5px;
+        }
+
+        .partners {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        .partners div {
+            width: 100px;
+            height: 50px;
+            background-color: lightgray;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="top-menu">
+            <img src="images/wrike.png" alt="Logo" class="logo">
+            <a href="#">Soluciones</a>
+            <a href="#">Producto</a>
+            <a href="#">Precios</a>
+            <a href="#">Clientes</a>
+        </div>
+        <div class="login-buttons">
+            <a href="#" class="btn-primary">Empieza gratis</a>
+            <a href="#" class="btn-secondary">Inicio de sesión</a>
+        </div>
+    </header>
+
+    <section class="hero">
+        <h1>Miles de personas </h1>
+        <h1>ya confían en Wrike</h1>
+        <br>
+        <br>
+        <p style="margin-top:0; margin-bottom:0;">El software de gestión de proyectos que tu empresa necesita,</p>
+        <p style="margin-top:0; margin-bottom:0;">con la información que te gusta y la seguridad que exiges.</p>
+        <br>
+        <br>
+        <div class="email-input">
+            <input type="email" placeholder="Tu email corporativo">
+            <button>Empieza gratis</button>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+         <div class="logo-container">
+            <button class="image-button">
+                <img src="images/Paypal.png" alt="PayPal">
+            </button>
+            <button class="image-button">
+                <img src="images/Hootsuite.png" alt="Hootsuite">
+            </button>
+            <button class="image-button">
+                <img src="images/purestorage.png" alt="PureStorage">
+            </button>
+            <button class="image-button">
+                <img src="images/umpqua.png" alt="Umpqua">
+            </button>
+            <button class="image-button">
+                <img src="images/capgemini.png" alt="Capgemini">
+            </button>
+        </div>
+    </section>
+</body>
+</html>
+
+
