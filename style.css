@@ -1,4 +1,3 @@
-/* Reseteo de márgenes y padding para todos los elementos */
 * {
     margin: 0;
     padding: 0;
@@ -6,9 +5,9 @@
 }
 .flex-container {
     display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center; /* Centra verticalmente */
-    height: 100vh; /* Hace que el contenedor tenga la altura completa de la página */
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
 }
 body {
     font-family: Arial, sans-serif;
@@ -17,31 +16,31 @@ body {
 }
 
 html, body {
-    margin: 0;          /* Elimina el margen por defecto del navegador */
-    padding: 0;         /* Elimina el relleno por defecto del navegador */
-    height: 100%;       /* Hace que el cuerpo ocupe el 100% de la altura de la ventana */
-    width: 100%;        /* Hace que el cuerpo ocupe el 100% del ancho de la ventana */
-    overflow-x: hidden; /* Evita el desplazamiento horizontal */
-    box-sizing: border-box; /* Incluye el padding y border en el tamaño del contenedor */
+    margin: 0;          
+    padding: 0;         
+    height: 100%;       
+    width: 100%;        
+    overflow-x: hidden; 
+    box-sizing: border-box; 
 }
 
 .hero {
     background-image: url("images/fondo2.png");
-    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+    background-size: cover; 
     background-position: center;
     width: 100%;
     height: 100vh;
 }
 
 .container {
-    width: 100%;        /* Ocupa todo el ancho del navegador */
-    min-height: 100vh;  /* Asegura que el contenedor ocupe toda la altura del viewport */
+    width: 100%;        
+    min-height: 100vh;  
     box-sizing: border-box;
 }
 
 .section {
-    width: 100%;        /* Ocupa el ancho completo */
-    height: 100vh;      /* Ocupa toda la altura del viewport */
+    width: 100%;        
+    height: 100vh;      
     box-sizing: border-box;
 }
 
@@ -55,22 +54,22 @@ header {
 
 .header-container {
     display: flex;
-    align-items: center;  /* Alinea verticalmente los elementos */
-    justify-content: space-between; /* Distribuye el espacio entre el logo y el menú */
-    padding: 0 50px;  /* Ajusta el espacio a los lados para centrado */
+    align-items: center;  
+    justify-content: space-between; 
+    padding: 0 50px;  
 }
   
 nav {
     display: flex;
-    justify-content: center; /* Centra los enlaces dentro del contenedor de navegación */
-    align-items: center; /* Alinea los enlaces verticalmente al centro */
-    gap: 20px; /* Añade espacio entre los enlaces */
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px; 
 }
   
 
 .logo {
-    width: 100px;   /* Ajusta el tamaño del logo */
-    height: auto;   /* Mantén la proporción del logo */
+    width: 100px;   
+    height: auto;   
 }
 
 .top-menu {
@@ -102,14 +101,13 @@ nav {
 }
 
 .login-buttons .btn-primary {
-    background-color: #66c664; /* Color del botón "Empieza gratis" */
+    background-color: #66c664; 
 }
 
 .login-buttons .btn-secondary {
-    background-color: #4A4A4A; /* Color del botón "Inicio de sesión" */
+    background-color: #4A4A4A;
 }
 
-/* Menú principal (Soluciones, Producto, etc.) */
 nav.main-menu {
     display: flex;
     justify-content: center;
@@ -127,7 +125,6 @@ nav.main-menu a:hover {
     text-decoration: underline;
 }
 
-/* Sección principal (texto y formulario) */
 .hero {
     text-align: center;
     padding: 100px 20px;
@@ -147,7 +144,6 @@ nav.main-menu a:hover {
     margin-bottom: 30px;
 }
 
-/* Input y botón para el correo */
 .email-input {
     display: flex;
     justify-content: center;
@@ -175,32 +171,27 @@ nav.main-menu a:hover {
     background-color: #57b657;
 }
 
-
-/* Estilo para el contenedor principal */
 .container {
     display: flex;
-    flex-direction: column; /* Coloca el texto y las imágenes en una columna */
-    align-items: center; /* Centra el contenido horizontalmente */
-    justify-content: center; /* Centra el contenido verticalmente */
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
     text-align: center;
     width: 100%;
     padding: 20px;
-    box-sizing: border-box; /* Asegura que el padding no exceda el ancho */
+    box-sizing: border-box; 
 }
 
-/* Espaciado entre el texto y las imágenes */
 .main-text {
-    margin-bottom: 0px; /* Espacio entre el texto y las imágenes */
+    margin-bottom: 0px; 
 }
 
-/* Contenedor de las imágenes */
 .logo-container {
     display: flex;
-    justify-content: center; /* Centra las imágenes horizontalmente */
-    gap: 20px; /* Espacio entre las imágenes */
+    justify-content: center; 
+    gap: 20px;
 }
 
-/* Estilos para los botones de imagen */
 .image-button {
     border: none;
     background-color: transparent;
@@ -208,8 +199,7 @@ nav.main-menu a:hover {
     padding: 0;
 }
 
-/* Ajusta el tamaño de las imágenes */
 .image-button img {
-    width: 120px; /* Ajusta el ancho de las imágenes */
-    height: auto; /* Mantiene la proporción de las imágenes */
+    width: 120px; 
+    height: auto; 
 }
